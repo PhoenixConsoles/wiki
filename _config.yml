@@ -1,8 +1,8 @@
 # Setup
-title: "The Wiki"
-url: https://wiki.phoenixconsoles.org
+title: Dark Poole
+url: https://getpoole.com
 paginate: 1
-baseurl: "/"
+baseurl: ""
 permalink: pretty
 
 # Gems
@@ -18,8 +18,8 @@ exclude:
   - .jekyll-cache
   - Gemfile
   - Gemfile.lock
-  - license.md
-  - readme.md
+  - LICENSE.md
+  - README.md
 
 sass:
   sass_dir: _sass
@@ -28,13 +28,13 @@ sass:
 # Options
 
 # Replace this value and uncomment to enable Google Analytics tracking
- ga_analytics: UA-186265977-1
+# ga_analytics: UA-000000-0
 
 # Specify the author for blog posts
 author:
-  name: Phoenix Consoles
-  url: https://twitter.com/phnxconsoles
-  email: wiki@phoenixconsoles.org
+  name: Mark Otto
+  url: https://twitter.com/mdo
+  email: markdotto@gmail.com
 
 # Custom vars
 version: 3.0.0
