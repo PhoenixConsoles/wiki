@@ -1,8 +1,9 @@
----
-layout: default
----
-
-<article class="page">
-  <h1 class="page-title">{{ page.title }}</h1>
-  {{ content }}
-</article>
+--- 
+layout: default 
+--- 
+{{ content }}
+<hr>
+<!-- Blog Comments -->
+<div class="media">
+  {% include comment.html %} 
+</div>

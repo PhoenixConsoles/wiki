@@ -1,48 +1,31 @@
-# Setup
-title: Dark Poole
-url: https://getpoole.com
-paginate: 1
-baseurl: ""
-permalink: pretty
+markdown: kramdown
+highlighter: pygments
+permalink: /posts/:title.html
+excerpt_separator: "<!-- more -->"
 
-# Gems
-plugins:
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-seo-tag
+github: panxw
+author: "潘学文"
+email: winfirm#163.com
+name: "潘学文个人博客"
+url: http://www.panxw.com
+domain: www.panxw.com
+all_categories: [
+["android", "Android开发","/posts/android.html"], 
+["program", "软件编程","/posts/program.html"],
+["web", "Web建站","/posts/web.html"], 
+["linux", "Linux相关","/posts/linux.html"],
+["read", "读书笔记","/posts/read.html"], 
+["other", "杂记","/posts/other.html"],
+["about", "关于","/about.html"]
+]
 
-# Optimize Jekyll
-exclude:
-  - .editorconfig
-  - .git
-  - .jekyll-cache
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE.md
-  - README.md
+paginate: 8
+paginate_path: "posts/page:num"
+timezone: America/Los_Angeles
 
-sass:
-  sass_dir: _sass
-  style: :compressed
+collections:
+  docs:
+    output: true
 
-# Options
-
-# Replace this value and uncomment to enable Google Analytics tracking
-# ga_analytics: UA-000000-0
-
-# Specify the author for blog posts
-author:
-  name: Mark Otto
-  url: https://twitter.com/mdo
-  email: markdotto@gmail.com
-
-# Custom vars
-version: 3.0.0
-
-# Navbar page list
-nav:
-  - title: Blog
-    url: /archive
-
-  - title: About
-    url: /about
+gems:
+ - jekyll-paginate
