@@ -3,25 +3,25 @@ highlighter: pygments
 permalink: /posts/:title.html
 excerpt_separator: "<!-- more -->"
 
-github: panxw
-author: "潘学文"
-email: winfirm#163.com
-name: "潘学文个人博客"
-url: http://www.panxw.com
-domain: www.panxw.com
+github: PhoenixConsoles
+author: "Fenix Repair and Development Group"
+email: wiki@phoenixconsoles.org
+name: "Fenix Repair and Development Group"
+url: https://wiki.phoenixconsoles.org/
+domain: wiki.phoenixconsoles.org
 all_categories: [
-["android", "Android开发","/posts/android.html"], 
-["program", "软件编程","/posts/program.html"],
-["web", "Web建站","/posts/web.html"], 
-["linux", "Linux相关","/posts/linux.html"],
-["read", "读书笔记","/posts/read.html"], 
-["other", "杂记","/posts/other.html"],
-["about", "关于","/about.html"]
+["consoles", "Consoles","/posts/android.html"], 
+["pc", "PC","/posts/program.html"],
+["general", "General","/posts/web.html"], 
+["linux", "Linux","/posts/linux.html"],
+["rtd", "Research & Development","/posts/read.html"], 
+["shop", "Shop","https://www.phoenixconsoles.org/"],
+["about", "About Us","https://www.phoenixconsoles.org/"]
 ]
 
 paginate: 8
 paginate_path: "posts/page:num"
-timezone: America/Los_Angeles
+timezone: America/New_York
 
 collections:
   docs:
