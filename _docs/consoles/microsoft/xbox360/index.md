@@ -12,11 +12,11 @@ tags:
 
 ### Guides
 
-- [Customization](guides/custom/)
-- [Hardware Development](guides/harddev/)
-- [Software Development](guides/softdev/)
-- [Modification](guides/mod/)
-- [Repair](guides/repair/)
+- [Customization](guides/custom/index)
+- [Hardware Development](guides/harddev/index)
+- [Software Development](guides/softdev/index)
+- [Modification](guides/mod/index)
+- [Repair](guides/repair/index)
 
 ### Information
 
