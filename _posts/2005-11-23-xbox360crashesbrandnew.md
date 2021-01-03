@@ -1,7 +1,7 @@
 ---
-title: "Xbox 360 EU Release"
-date: 2005-12-02 1:00:00 -0500
+title: "Many users report brand new Xbox 360s crashing, mostly caused by improper ventilation of the AC power brick."
+date: 2005-11-23 1:00:00 -0500
 categories: xbox360 eu
 ---
 
-The Xbox 360 is released in Europe.
+Many users report crashes (E79, E64, E74) with their brand new Xbox 360s, primarily caused by improper ventilation of the AC power brick.
