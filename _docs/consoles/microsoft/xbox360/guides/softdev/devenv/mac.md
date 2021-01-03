@@ -1,0 +1,5 @@
+# Setting up a Xbox 360 Development Environment on Mac OS
+
+## Open360SDK
+
+Open360SDK is a under-development tool by Phoenix Consoles' OpenXenon project to have all the functionality of the official Microsoft Xbox 360 SDK but built from the ground up and completely open source. To learn more, check out the website.
