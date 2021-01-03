@@ -1,20 +1,45 @@
-- title: Documentation
+- title: Navigation
   url: docs
   links:
-    - title: "Getting Started"
-      url: "docs/getting-started"
+    - title: "General"
+      url: "docs/general/"
+      children:
+        - title: Skills
+          url: "docs/general/skills/"
+        - title: Repair
+          url: "docs/general/repair/"
+        - title: Development
+          url: "docs/general/development/"
+    - title: "Consoles"
+      url: "docs/consoles/"
+      children:
+        - title: Microsoft
+          url: "docs/consoles/microsoft/"
+        - title: Nintendo
+          url: "docs/nintendo/nintendo/"
+        - title: Sony
+          url: "docs/consoles/sony/"
+    - title: "Contribution"
+      url: "docs/contribution/getting-started"
       children:
         - title: Features
-          url: "docs/getting-started#getting-started"
+          url: "docs/contribution/getting-started#getting-started"
         - title: Development
-          url: "docs/getting-started#development"
+          url: "docs/contribution/getting-started#development"
         - title: Customization
-          url: "docs/getting-started#customization"
-    - title: "Extras"
-      url: "docs/extras"
+          url: "docs/contribution/getting-started#customization"
+    - title: "Important"
+      url: "docs/"
       children:
-        - title: Quizzes
-          url: "docs/extras/example-quiz"
+        - title: Legal
+          url: "docs/legal/"
+        - title: Guidelines
+          url: "docs/guidelines/"
+        - title: Policies
+          url: "docs/policies/"
+    - title: "Extras"
+      url: "docs/contribution/extras"
+      children:
         - title: Tags Page
           url: "tags"
     - title: "About"
