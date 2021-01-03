@@ -4,4 +4,4 @@ date:   2020-01-03 9:08:21
 categories: phoenixconsoles xbox360
 ---
 
-With a dream and a plan, Phoenix Consoles creates the wiki, beginning with the Xbox 360 section. Starting with this very blog, beginning to form the history that will one day be all here for the world to remember.
+In an effort to preserve and develop for the Xbox 360, the Wiki is formed, with plans to expand to many other consoles.
