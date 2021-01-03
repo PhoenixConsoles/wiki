@@ -14,37 +14,37 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "Docsy Jekyll"
-email: wiki@phoenixconsoles.org
-author: Ash
+title: Docsy Jekyll
+email: your-email@domain.com
+author: Dinosaur Avocado
 description: > # this means to ignore newlines until "baseurl:"
-  A Wiki for information and guides for consoles, console repair, 
-  electronics repair, technical info, etc. Open-source information
-  for the hardware YOU paid for.
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 
 # DO NOT CHANGE THE LINE OF THIS FILE without editing .circleci/circle_urls.sh
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/docsy-jekyll" # the subpath of your site, e.g. /blog
 
 # This is mostly for testing
-url: "https://wiki.phoenixconsoles.org" # the base hostname & protocol for your site
+url: "https://vsoch.github.io" # the base hostname & protocol for your site
 
 # Social (First three Required)
-repo: "https://github.com/PhoenixConsoles/wiki"
-github_user: "phoenixconsoles"
-github_repo: "wiki"
+repo: "https://github.com/vsoch/docsy-jekyll"
+github_user: "vsoch"
+github_repo: "docsy-jekyll"
 
 # Optional
-twitter: phnxconsoles
-linkedin: phoenixrdllc
-#dockerhub: 
+twitter: vsoch
+linkedin: vsochat
+dockerhub: vanessa
 
 # Should there be feedback buttons at the bottom of pages?
 feedback: true
 
 # Link to a privacy policy in footer, uncomment and define if wanted
- privacy: https://www.phoenixconsoles.com/posts/privacy
+# privacy: https://domain.com/privacy
 
- google-analytics: UA-186265977-1
+# google-analytics: UA-XXXXXXXXXX
 # Image and (square) dimension for logo (don't start with /)
 # If commented, will use material hat theme
 # logo: "assets/img/logo/SRCC-square-red.png"
