@@ -1,22 +1,6 @@
-Jekyll博客模板
-================
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md) We have adopted the Contributor Covenant v2.0 to regulate and enforce a fair, friendly, and open community.
 
-#### 1.浏览
-http://www.panxw.com, 支持PC与智能机访问。  
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/80x15.png" /></a> This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
 
-#### 2.模板使用
-修改_config.yml与_includes目录下相关文件进行配置。  
-模板可任意使用，但请保留本站**友情链接**。  
-
-#### 3.联系作者
-Email: winfirm(#)163.com  
-QQ交流群: 168563980  
-
-#### 4.赞助
-想给作者予以鼓励？欢迎打赏吧。  
-支付宝:  
-<img width="200" height="200" src="http://o83o7w0hk.bkt.clouddn.com//donate_qr/donate_alipay.jpg"/>
-
-微信:  
-<img width="200" height="200" src="http://o83o7w0hk.bkt.clouddn.com//donate_qr/donate_weixin.jpg"/>
+Check it out at https://wiki.phoenixconsoles.org/
 
