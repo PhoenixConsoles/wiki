@@ -2,23 +2,23 @@
   url: docs
   links:
     - title: "General"
-      url: "docs/general/"
+      url: "docs/general/nav"
       children:
         - title: Skills
-          url: "docs/general/skills/"
+          url: "docs/general/skills/nav"
         - title: Repair
-          url: "docs/general/repair/"
+          url: "docs/general/repair/nav"
         - title: Development
-          url: "docs/general/development/"
+          url: "docs/general/development/nav"
     - title: "Consoles"
-      url: "docs/consoles/"
+      url: "docs/consoles/nav"
       children:
         - title: Microsoft
-          url: "docs/consoles/microsoft/"
+          url: "docs/consoles/microsoft/nav"
         - title: Nintendo
-          url: "docs/nintendo/nintendo/"
+          url: "docs/nintendo/nintendo/nav"
         - title: Sony
-          url: "docs/consoles/sony/"
+          url: "docs/consoles/sony/nav"
     - title: "Contribution"
       url: "docs/contribution/getting-started"
       children:
@@ -32,11 +32,11 @@
       url: "docs/"
       children:
         - title: Legal
-          url: "docs/legal/"
+          url: "docs/legal/nav"
         - title: Guidelines
-          url: "docs/guidelines/"
+          url: "docs/guidelines/nav"
         - title: Policies
-          url: "docs/policies/"
+          url: "docs/policies/nav"
     - title: "Extras"
       url: "docs/contribution/extras"
       children:
