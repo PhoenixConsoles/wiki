@@ -1,105 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <meta name="description" content="{{ page.title }} - {{ site.name }} - 作者:{{ site.author }}"/> 
-	{% if page.tags.size > 0%}<meta name="keywords" content="{% for tag in page.tags %}{% if tag != "" %}{{ tag }}{% if forloop.index != page.tags.size %},{% endif %}{% endif %}{% endfor %}"/>{% endif %}
-    <title>{{ page.title }} - {{ site.name }}</title>
-    <!-- Bootstrap Core CSS -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet"/>
-    <!-- Custom CSS -->
-    <link href="/css/blog.css" rel="stylesheet"/>
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media
-    queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file://
-    -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js">
-      </script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js">
-      </script>
-    <![endif]-->
-        <!-- jQuery Version 1.11.0 -->
-    <script src="/js/jquery-1.11.0.js"> </script>
-    <!-- Bootstrap Core JavaScript -->
-    <script src="/js/bootstrap.min.js"></script>
-  </head>
-  
-  <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">
-              Toggle navigation
-            </span>
-            <span class="icon-bar">
-            </span>
-            <span class="icon-bar">
-            </span>
-            <span class="icon-bar">
-            </span>
-          </button>
-          <a class="navbar-brand" href="/">
-            首页
-          </a>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          {% include navigation.html %} 
-        </div>
-        <!-- /.navbar-collapse -->
-      </div>
-      <!-- /.container -->
-    </nav>
-    <!-- Page Content -->
-    <div class="container">
-      <div class="row">
-        <!-- Blog Entries Column -->
-        <div class="col-md-8">
-          {{ content }}
-        </div>
-        <!-- Blog Sidebar Widgets Column -->
-        <div class="col-md-4">
-          <!-- Blog Categories Well -->
-          <div class="well">
-            <h4>
-              栏目分类
-            </h4>
-            <div class="row">
-              {% include categories.html %} 
-            </div>
-            <!-- /.row -->
+<html lang="en" class="no-js">
+  {% include head.html %}
+  {% include google-analytics.html %}
+  <body class="td-section">
+    {% include header.html %}
+    <div class="container-fluid td-outer">
+      <div class="td-main">
+        <div class="row flex-xl-nowrap">
+          <div class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
+          {% include sidebar.html %}
           </div>
-		  <!-- Blog Recent Well -->
-          <div class="well">
-            <h4>
-              最新文章
-            </h4>
-			<div class="row">
-              {% include recent_posts.html %} 
-			</div>
+          <div class="d-none d-xl-block col-xl-2 td-toc d-print-none">
+              <div class="td-page-meta ml-2 pb-1 pt-2 mb-0">
+                  {% include editable.html %}
+              </div>
+              <nav id="TableOfContents"><ul>
+              <li><ul id="TOC">
+                <!-- Links will be appended here-->
+              </ul></li>
+              </ul></nav>
           </div>
+          <main class="col-12 col-md-9 col-xl-8 pl-md-5" role="main">
+            <nav aria-label="breadcrumb" class="d-none d-md-block d-print-none">
+	      <ol class="breadcrumb spb-1">
+              {% assign crumbs = page.url | append: "/"  | replace: '//', '/' | split: '/' %}
+              {% for crumb in crumbs offset: 1 %}{% if crumb != "index" %}{% if forloop.last %}
+                <li class="breadcrumb-item active" aria-current="page">
+	          <a href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+                </li>{% else %}
+                {% if page.url != "/docs/" %}<li class="breadcrumb-item">
+                  <a href="{{ site.url }}{{ site.baseurl }}{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{% if crumb == "docs" %}Documentation{% else %}{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}{% endif %}</a>
+                </li>{% endif %}{% endif %}
+                {% endif %}{% endfor %}
+	      </ol>
+           </nav>
+           <div class="td-content">
+	      {{ content }}	
+              {% if section.links %}<div class="section-index">
+               <hr class="panel-line">{% for child in section.links %}
+                 <div class="entry">
+                    <h5>
+                        <a href="{% if child.url %}{{ site.baseurl }}{{ child.url }}{% else %}{{ child.external_url }}{% endif %}">{{ child.title }}</a>
+                    </h5>
+                    <p>{{ child.description }}</p>
+                 </div>{% endfor %}
+              </div>{% endif %}
+              {% include feedback.html %}
+           </div>
+          </main>
         </div>
       </div>
-      <!-- /.row -->
-
-      <!-- Footer -->
-      <footer>
-        <div class="row">
-          <div class="col-lg-12">
-            {% include copyright.html %} 
-          </div>
-          <!-- /.col-lg-12 -->
-        </div>
-        <!-- /.row -->
-      </footer>
+      {% include footer.html %}
     </div>
-    <!-- /.container -->
+    {% include scripts.html %}
   </body>
-
 </html>

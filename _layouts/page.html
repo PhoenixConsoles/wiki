@@ -1,9 +1,7 @@
---- 
-layout: default 
---- 
+---
+layout: default
+---
 {{ content }}
-<hr>
-<!-- Blog Comments -->
-<div class="media">
-  {% include comment.html %} 
-</div>
+{% include toc.html %}
+{% include permalinks.html %}
+{% include tags.html %}

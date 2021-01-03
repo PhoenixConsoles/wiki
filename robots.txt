@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://wiki.phoenixconsoles.org/atom.xml
+Sitemap: https://website/atom.xml
