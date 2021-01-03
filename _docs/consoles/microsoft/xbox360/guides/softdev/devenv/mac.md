@@ -1,3 +1,18 @@
+---
+title: Setting up a Xbox 360 Development Environment on Mac OS
+tags: 
+ - xbox360
+ - xbox360dev
+ - xbox
+ - dev
+ - macos
+description: Setting up a Xbox 360 Development Environment on Mac OS
+
+
+---
+
+# 
+
 # Setting up a Xbox 360 Development Environment on Mac OS
 
 ## Open360SDK

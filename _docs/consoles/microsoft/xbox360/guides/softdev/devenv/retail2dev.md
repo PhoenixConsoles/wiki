@@ -1,3 +1,19 @@
+---
+title: Setting up a Xbox 360 Development Environment
+tags: 
+ - xbox360
+ - xbox360dev
+ - xbox
+ - dev
+ - modding
+ - xbox360modding
+description: Setting up a Xbox 360 Development Environment
+
+
+---
+
+# 
+
 # Convert Retail Console to Devkit Console
 
 Converting a retail console to a development console will help you work on developing homebrew software for the Xbox 360 by providing a test environment which streamlines the development process by allowing access to SDK[LINK NEEDED] features unavailable via Freeboot[LINK NEEDED] or stock NAND. This is done using RGLoader[LINK NEEDED], which is a tool that can build a devkit NAND from a retail NAND dump. The devkit NAND enables debug features not otherwise available on a modified console capable of running unsigned code. This process also installs xshell[LINK NEEDED], the official development dashboard[CITATION NEEDED].

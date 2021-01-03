@@ -1,4 +1,17 @@
-# Setting up a Development Environment
+---
+title: Setting up a Xbox 360 Development Environment
+tags: 
+ - xbox360
+ - xbox360dev
+ - xbox
+ - dev
+description: Setting up a Xbox 360 Development Environment
+
+---
+
+# 
+
+# Setting up a Xbox 360 Development Environment
 
 Set up your SDK Environment
 

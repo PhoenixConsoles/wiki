@@ -1,3 +1,18 @@
+---
+title: Setting up a Xbox 360 Development Environment on Windows 10
+tags: 
+ - xbox360
+ - xbox360dev
+ - xbox
+ - dev
+ - win10
+description: Setting up a Xbox 360 Development Environment on Windows 10
+
+
+---
+
+# 
+
 # Setting up a Xbox 360 Development Environment on Windows 10
 
 Disclaimer: This is purely for educational purposes. What you do with this information is your responsibility.
