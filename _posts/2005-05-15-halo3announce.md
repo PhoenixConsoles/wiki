@@ -1,6 +1,6 @@
 ---
 title: "Halo 3 Announcement"
-date: 2005-05-12 1:00:00 -0500
+date: 2005-05-15 1:00:00 -0500
 categories: xbox360
 ---
 
