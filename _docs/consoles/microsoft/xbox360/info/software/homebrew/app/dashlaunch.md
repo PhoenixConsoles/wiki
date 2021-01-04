@@ -1,10 +1,20 @@
+---
+title: DashLaunch
+description: Xbox 360 homebrew utility for deep system configuration
+tags:
+ - consoles
+ - microsoft
+ - xbox360
+---
+
 # DashLaunch
 
-------
+DashLaunch is a tool for tweaking deep system settings. **You must save your changes if you make any modifications.**
 
-DashLaunch is a custom dashboard, usually used as a tool for tweaking deep system settings. The most common usage for DashLaunch is to set a custom dashboard to be the default one on system startup, and to manage target fan settings. Keep in mind that you must save your changes if you make any modifications by going to the "Save \ Load launch.ini" menu and pressing X on Flash.
+### DashLaunch is a recommended App for JTAG/RGH consoles.
 
 - The default username/password for FTP is "xbox" and "xbox".
+- This can be changed through the configuration menu.
 
 ## Installation
 
