@@ -1,30 +1,20 @@
 ---
 layout: page
-title: Docsy Jekyll Theme
+title: The Phoenix Consoles Wiki
 permalink: /
 ---
 
-# Welcome to Docsy Jekyll
+# The Phoenix Consoles Wiki
 
-This is a starter template for a docsy jekyll theme.
-
-![assets/img/docsy-jekyll.png](assets/img/docsy-jekyll.png)
+This is a Wiki to encompass all of the information needed to be known about consoles, repair, development, homebrew, and hacking them, as well as general electronics and PC repair and development work.
 
 ## Purpose
 
-GitHub pages uses Jekyll natively, so when I make documentation, I typically
-look for Jekyll templates. Why? Using Jekyll means that I can use markdown,
-and allow for users to easily contribute, and build automatically just by
-way of pushing to a master branch (or general GitHub pages).
-I found Docsy, a beautiful Hugo template, but it requires hugo with GoLang
-which doesn't render natively on GitHub pages. For this reason, I've spent
-some time creating a custom Jekyll template that is (almost) as beautiful,
-and includes all the features that I might want.
+The purpose of this Wiki is to provide a centralized, accessible, dynamic, and community-driven source of information about consoles, repair, development, homebrew, hacking, research, etc. as well as general electronics, computer, and development knowledge and skills.
 
 ## Features
 
-What are these features? You should see the {% include doc.html name="Getting Started" path="getting-started" %}
-guide for a complete summary. Briefly:
+Some of the features of this wiki include
 
  - *User interaction* including consistent permalinks, links to ask questions via GitHub issues, and edit the file on GitHub directly.
  - *Search* across posts, documentation, and other site pages, with an ability to exclude from search.
@@ -34,8 +24,7 @@ guide for a complete summary. Briefly:
  - *Navigation*: Control over the main navigation on the left of the page, and automatic generation of table of contents for each page on the right.
  - *News* A posts feed for news and updates, along with an archive (organized by year).
  - *Templates* or specifically, "includes" that make it easy to create an alert, documentation link, or other content.
- - *Continuous Integration* recipes to preview the site
+ - *Continuous Integration* recipes to preview the site preproduction.
 
-
-For features, getting started with development, see the {% include doc.html name="Getting Started" path="getting-started" %} page. Would you like to request a feature or contribute?
+Would you like to request a feature, documentation, or contribute?
 [Open an issue]({{ site.repo }}/issues)
