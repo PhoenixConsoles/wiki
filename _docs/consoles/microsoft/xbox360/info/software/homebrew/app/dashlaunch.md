@@ -11,7 +11,7 @@ tags:
 
 DashLaunch is a tool for tweaking deep system settings. **You must save your changes if you make any modifications.**
 
-### DashLaunch is a recommended App for JTAG/RGH consoles.
+### It is recommended to install this app on a RGH/JTAG. Though limited in function as a Dashboard, it is a powerful configuration manager.
 
 - The default username/password for FTP is "xbox" and "xbox".
 - This can be changed through the configuration menu.

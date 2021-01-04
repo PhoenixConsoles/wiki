@@ -1,3 +1,12 @@
+---
+title: XeXMenu
+description: Xbox 360 homebrew file manager
+tags:
+ - consoles
+ - microsoft
+ - xbox360
+---
+
 # XeXMenu
 
 XeXMenu is a file manager for the Xbox 360. 
