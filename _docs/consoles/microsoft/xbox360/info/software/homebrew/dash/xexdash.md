@@ -57,3 +57,7 @@ XexDash is a minimal dashboard replacement capable of launching game backups, FT
 - **Fan**: Press left or right on the DPAD to change the fan speed by 5%. Setting applies from when you open XexDash until Xbox is shut off.
 - **Return to XDK**: Returns to the XDK menu, or if not installed, your default dashboard.
 - **Return to Dash**: Returns to your default dashboard.
+
+# References
+
+https://www.reddit.com/r/360hacks/wiki/xexdash - Thanks to the 360hacks wiki team for their work.
