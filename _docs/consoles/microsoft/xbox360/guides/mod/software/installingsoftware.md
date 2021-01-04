@@ -1,0 +1,1 @@
+Install software on retail, rgh/jtag, dev, etc.
