@@ -63,3 +63,4 @@ This example is a hypothetical example using the game Doom 3. In this example, w
 
 https://www.reddit.com/r/360hacks/wiki/xce - Thanks to the 360hacks wiki team for their work!
 
+The creator of XCETools. If you know any more please submit the information!
