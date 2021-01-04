@@ -1,18 +1,12 @@
 ---
-title: Setting up a Xbox 360 Development Environment
+title: Converting a Retail Console to a Devkit Console
 tags: 
  - xbox360
- - xbox360dev
- - xbox
- - dev
- - modding
- - xbox360modding
-description: Setting up a Xbox 360 Development Environment
+ - microsoft
+description: Converting a Retail Xbox 360 to a Devkit Xbox 360
 
 
 ---
-
-# 
 
 # Convert Retail Console to Devkit Console
 
