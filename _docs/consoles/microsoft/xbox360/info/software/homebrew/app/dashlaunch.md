@@ -16,6 +16,8 @@ DashLaunch is a tool for tweaking deep system settings. **You must save your cha
 - The default username/password for FTP is "xbox" and "xbox".
 - This can be changed through the configuration menu.
 
+Video tutorials on installing and configuring DashLaunch are available from [Modded Warfare](https://www.youtube.com/watch?v=y2zCQD0RaeA) and [XeXSolutions](https://www.youtube.com/watch?v=OJcHQUk9S20)
+
 ## Installation
 
 You will need:
