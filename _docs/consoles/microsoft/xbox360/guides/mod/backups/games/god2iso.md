@@ -1,12 +1,25 @@
+---
+title: Converting a Game on Demand (GOD) to an ISO
+description: This guide will walk you through the conversion of a GOD container to an ISO. 
+tags:
+ - guides
+ - xbox 360
+ - microsoft
+ - consoles
+---
+
 # Converting a Game on Demand (GOD) to an ISO
+
+### THIS GUIDE IS INCOMPLETE
+
+NEEDS INFO ON CREATEISOGOOD BROKEN HEADER!!
 
 #### See More
 
 1. Game on Demand
-
 2. XISO
-
 3. ISO
+4. Iso2God
 
 
 ### Scope
@@ -32,7 +45,7 @@ This guide will walk you through the conversion of a GOD container to an ISO.
 
 When you open GOD2ISO you will be greeted by this window:
 
-![A screenshot of the GOD2ISO v1.0.4 main window]({{ site.baseurl }}/_media/software/god2iso/main.jpg)
+![A screenshot of the GOD2ISO v1.0.4 main window]({{ site.baseurl }}/media/software/god2iso/main.jpg)
 
 1. Click `Add...` to add GOD files to convert to ISO. You will be greeted with a file explorer to explore to the GOD identification file.  Select `Open` and repeat for as many GOD containers as you wish.
 
@@ -42,7 +55,7 @@ When you open GOD2ISO you will be greeted by this window:
 
 4. Click `Go!` to begin the conversion process. The resulting file for each ISO will be stored in the selected output directory as once it is completed. When it is complete there is no notification, but you will know the process is complete when the buttons are no longer greyed out and the progress bar is moved all the way to the right for both `Iso progress:` and `Total progress:` as shown in the following screenshot: 
 
-   ![A screenshot of the GOD2ISO v1.0.4 main window after the completion of conversion, indicated by the progress bars being all the way to the right and the Add, Clear, Browse, and Go buttons being no longer greyed out.]({{ site.baseurl }}/_media/software/god2iso/finished.jpg)
+   ![A screenshot of the GOD2ISO v1.0.4 main window after the completion of conversion, indicated by the progress bars being all the way to the right and the Add, Clear, Browse, and Go buttons being no longer greyed out.]({{ site.baseurl }}/media/software/god2iso/finished.jpg)
 
 ## Help
 
@@ -55,3 +68,4 @@ Troubleshooting information for GOD2ISO can be found [here.]( {{site.baseurl}}/_
 # References
 
 - [Converting a Game on Demand (GOD) to ISO on r/360hacks wiki](https://web.archive.org/web/*/https://www.reddit.com/r/360hacks/wiki/god2iso) [[Direct Link]](https://www.reddit.com/r/360hacks/wiki/god2iso)
+- [god2iso by raburton on Github](https://web.archive.org/web/*/https://github.com/raburton/god2iso) [[Direct Link]](https://github.com/raburton/god2iso) **(With special thanks for open sourcing their program!)**
