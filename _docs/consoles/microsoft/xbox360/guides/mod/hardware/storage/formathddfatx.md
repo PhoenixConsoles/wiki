@@ -11,32 +11,32 @@ tags:
 
 # Formatting an accessory storage device for the Xbox 360 as FATX
 
+### Disclaimer
+
+**This is solely for educational purposes. You are responsible for your usage of this information and for any damage, or anything else that may occur as a result of accessing this educational material. Please ensure you are complying with applicable laws for your region. Accessing this page is acceptance of this disclaimer.**
+
 ### Scope
 
-This guide will show you how to format an HDD as FATX.
+This guide will show you how to format an accessory storage device for the Xbox 360 as FATX.
 
 ### Goals
 
-- Format the accessory HDD as FATX on an Xbox 360
-- Format the accessory HDD as FATX on a Windows PC
-- (TBD) Format the accessory HDD as FATX on Linux
-- (TBD) Format the accessory HDD as FATX on Mac OS
+- Format the accessory storage device as FATX on an Xbox 360
+- Format the accessory storage device as FATX on a Windows PC
+- (TBD) Format the accessory storage device as FATX on Linux
+- (TBD) Format the accessory storage device as FATX on Mac OS
 
 ### Prerequisites
 
-- Xbox 360 console
-- Xbox 360 accessory HDD
-- Controller
-- (Optional) A Windows PC
-- FatXplorer (If using a Windows PC)
+- Xbox 360 console and controller (if using Xbox 360 to format HDD)
+- Xbox 360 accessory storage device or off-the-shelf storage device (Freeboot and XDK only)
+- A Windows PC and FatXplorer (If using a Windows PC)
 
-## Warnings
+### Warnings and Notices
 
 - Once the HDD is formatted, if the HDD is not an official Microsoft HDD then the compatibility partition will need to be repaired.
 
 ## Formatting the accessory storage
-
-This is where you put your guide.
 
 ### From the Microsoft official dashboard
 
@@ -76,7 +76,7 @@ This is where you put troubleshooting information for people following this guid
 This is where all reference material goes, organized in bullet points like so:
 
 - [FatXplorer Program](https://web.archive.org/web/*/https://fatxplorer.eaton-works.com/) [[Direct Link]](https://fatxplorer.eaton-works.com/)
-- Independent Research (This reference indicates this page relies partially or completely on independent research)
+- Independent Research (This reference indicates this page relies partially or completely on independent research. Citations are needed.)
 
 ### See more
 

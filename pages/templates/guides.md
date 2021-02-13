@@ -11,9 +11,9 @@ tags:
 
 # Title
 
-### See more
+### Disclaimer
 
-Relevant links and topics go here in a numbered list.
+**This is solely for educational purposes. You are responsible for your usage of this information and for any damage, or anything else that may occur as a result of accessing this educational material. Please ensure you are complying with applicable laws for your region. Accessing this page is acceptance of this disclaimer.**
 
 ### Scope
 
@@ -25,17 +25,11 @@ A summary of the intended goals of the guide in a bulleted list.
 
 ### Prerequisites
 
-A summary of the required hardware and software needed to follow the guide in a bulleted list.
+A summary of the required materials needed to follow the guide in a bulleted list.
 
-### Disclaimer
+### Warnings and Notices
 
-**This is solely for educational purposes. You are responsible for your usage of this information and for any damage, or anything else that may occur as a result of accessing this educational material. Please ensure you are complying with applicable laws for your region. Accessing this page is acceptance of this disclaimer.**
-
-### Warnings
-
-A summary of warnings go here, if applicable
-
-
+A summary of warnings and notices go here in a bulleted list.
 
 ## Guide Name
 
