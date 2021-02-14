@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Wiki
-email: wiki@phoenixconsoles.org
-webdev: Ashtin Wilkin-Blanchard
+title: Phoenix Consoles Wiki
+email: "wiki@phoenixconsoles.org"
+webdev: "Ashtin Wilkin-Blanchard"
 operator: Blanchard Repair Group, LLC. dba. Phoenix Consoles
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
