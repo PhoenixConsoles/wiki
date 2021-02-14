@@ -18,10 +18,10 @@
 <button class="feedback--answer feedback--answer-yes">Yes</button>
 <button class="feedback--answer feedback--answer-no">No</button>
 <p class="feedback--response feedback--response-yes">
-  Glad to hear it! We'd love to <a href="?labels=feedback&title=Feedback: &body=Positive feedback on: {{ site.repo }}/tree/master/{{ page.path }}">get your feedback, suggestions, and questions</a>!
+  Glad to hear it! We'd love to <a href="{{ site.repo }}/issues/new?labels=feedback&title=Feedback: &body=Positive feedback on: {{ site.repo }}/tree/master/{{ page.path }}">get your feedback, suggestions, and questions</a>!
 </p>
 <p class="feedback--response feedback--response-no">
-  We're always striving to get better! Please, <a href="?labels=feedback&title=Feedback: &body=Negative feedback on: {{ site.repo }}/tree/master/{{ page.path }}">tell us how we can improve</a>.
+  We're always striving to get better! Please, <a href="{{ site.repo }}/issues/new?labels=feedback&title=Feedback: &body=Negative feedback on: {{ site.repo }}/tree/master/{{ page.path }}">tell us how we can improve</a>.
 </p>
 <script>
   const yesButton = document.querySelector('.feedback--answer-yes');
