@@ -14,10 +14,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Phoenix Consoles Wiki
+title: "Phoenix Consoles Wiki"
 email: "wiki@phoenixconsoles.org"
 webdev: "Ashtin Wilkin-Blanchard"
-operator: Blanchard Repair Group, LLC. dba. Phoenix Consoles
+operator: "Blanchard Repair Group, LLC. dba. Phoenix Consoles"
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -36,14 +36,14 @@ github_user: "phoenixconsoles"
 github_repo: "wiki"
 
 # Optional
-twitter: phoenixconsoles
-linkedin: phoenixconsoles
+twitter: "phoenixconsoles"
+linkedin: "phoenixconsoles"
 
 # Should there be feedback buttons at the bottom of pages?
-feedback: true
+feedback: "false"
 
 # Link to a privacy policy in footer, uncomment and define if wanted
- privacy: https://www.phoenixconsoles.org/codeofconduct
+ privacy: "https://www.phoenixconsoles.org/codeofconduct"
 
 # google-analytics: UA-XXXXXXXXXX
 # Image and (square) dimension for logo (don't start with /)
