@@ -10,5 +10,11 @@ To learn about contributing to this project, [feel free to visit our How to Cont
 
 
 
+Dependencies:
+
+- **GitHub Issues**
+- **GitHub Actions**
+- **Jekyll and GitHub Pages**
+
 [This project uses the Docsy Jekyll theme by vsoch](https://github.com/vsoch/docsy-jekyll) and all repository contents from the original repository are licensed under the [Apache License 2.0](https://github.com/vsoch/docsy-jekyll/blob/master/LICENSE).
 
