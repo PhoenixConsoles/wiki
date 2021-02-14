@@ -14,7 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Phoenix Consoles Wiki
+title: Wiki
+sitename: Phoenix Consoles Wiki
 email: wiki@phoenixconsoles.org
 webdev: Ashtin Wilkin-Blanchard
 operator: Blanchard Repair Group, LLC. dba. Phoenix Consoles
