@@ -7,3 +7,8 @@ To learn about contributing to this project, [feel free to visit our How to Cont
 [Visit the project website!](https://wiki.phoenixconsoles.org/)
 
 [Contact us](https://www.phoenixconsoles.org/contactus) or [open an issue](https://github.com/phoenixconsoles/wiki/issues/new)!
+
+
+
+[This project uses the Docsy Jekyll theme by vsoch](https://github.com/vsoch/docsy-jekyll) and all repository contents from the original repository are licensed under the [Apache License 2.0](https://github.com/vsoch/docsy-jekyll/blob/master/LICENSE).
+
