@@ -1,7 +1,7 @@
 <a href="{{ site.repo }}/edit/master/{{ page.path }}" target="_blank"><i class="fa fa-edit fa-fw"></i> Edit this page on GitHub</a>
 <a href="{{ site.repo }}/issues/new?labels={% if page.editable %}{{ page.editable }}{% else %}sortme{% endif %}&title=Issue: &body=Issue on: {{ site.repo }}/tree/master/{{ page.path }}" target="_blank"><i class="fab fa-github fa-fw"></i> Create issue</a>
-<a href="{{ site.repo }}/issues/new?labels=interact&title=input: &body=Question/Report on: {{ site.repo }}/tree/master/{{ page.path }}" target="_blank"><i class="fas fa-question fa-fw"></i> Ask a Question or Report Information</a>
-<a href="{{ site.repo }}/issues/new?labels=interact&title=suggestion: &body=Suggestion on: {{ site.repo }}/tree/master/{{ page.path }}" target="_blank"><i class="fas fa-tasks fa-fw"></i> Make a Suggestion</a>
+<a href="{{ site.repo }}/issues/new?labels=input&title=Question/Report: &body=Question/Report on: {{ site.repo }}/tree/master/{{ page.path }}" target="_blank"><i class="fas fa-question fa-fw"></i> Ask a Question or Report Information</a>
+<a href="{{ site.repo }}/issues/new?labels=interact&title=Suggestion: &body=Suggestion on: {{ site.repo }}/tree/master/{{ page.path }}" target="_blank"><i class="fas fa-tasks fa-fw"></i> Make a Suggestion</a>
 <!-- this will parse through the header fields and add a button to open
      an issue / ask a question on Github. The editable field should be in
      the post frontend matter, and refer to the label to open the issue for -->
