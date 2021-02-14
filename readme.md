@@ -4,7 +4,6 @@ To learn about contributing to this project, [feel free to visit our How to Cont
 
 ![Creative Commons License](https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png)This work is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.](http://creativecommons.org/licenses/by-nc-nd/4.0/)
 
-Website
+[Visit the project website!](https://wiki.phoenixconsoles.org/)
 
-Email
-
+[Contact us](https://www.phoenixconsoles.org/contactus) or [open an issue](https://github.com/phoenixconsoles/wiki/issues/new)!
