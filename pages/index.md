@@ -6,25 +6,32 @@ permalink: /
 
 # The Phoenix Consoles Wiki
 
-This is a Wiki to encompass all of the information needed to be known about consoles, repair, development, homebrew, and hacking them, as well as general electronics and PC repair and development work.
+### The ultimate resource on consoles and related topics
 
-## Purpose
-
-The purpose of this Wiki is to provide a centralized, accessible, dynamic, and community-driven source of information about consoles, repair, development, homebrew, hacking, research, etc. as well as general electronics, computer, and development knowledge and skills.
+This wiki is a community-driven open information project about consoles, electronics, repair, development, homebrew, and ethical hacking for the purpose of education, archival, and reduction of electronic waste.
 
 ## Features
 
-Some of the features of this wiki include
+### Would you like to request a feature, documentation, or contribute? [Submit an issue!]( {{site.baseurl}}/pages/issues/)
 
- - *User interaction* including consistent permalinks, links to ask questions via GitHub issues, and edit the file on GitHub directly.
- - *Search* across posts, documentation, and other site pages, with an ability to exclude from search.
- - *External Search* meaning an ability to link any page tag to trigger an external search.
- - *Documentation* A documentation collection that was easy to organize on the filesystem, render with nested headings for the user, and refer to in markdown.
- - *Pages* A separate folder for more traditional pages (e.g, about).
- - *Navigation*: Control over the main navigation on the left of the page, and automatic generation of table of contents for each page on the right.
- - *News* A posts feed for news and updates, along with an archive (organized by year).
- - *Templates* or specifically, "includes" that make it easy to create an alert, documentation link, or other content.
- - *Continuous Integration* recipes to preview the site preproduction.
+Some features of our wiki include:
 
-Would you like to request a feature, documentation, or contribute?
-[Open an issue]({{ site.repo }}/issues)
+- Links to *ask questions* and *make suggestions* via GitHub Issues.
+- *Make edits* directly on GitHub.
+- *Search* pages and documentation to find what you are looking for.
+- *Automation* through Jekyll and GitHub Actions, making it easy to add, edit, and change the wiki.
+- *Review* through a community-driven system and our wiki administration and moderation teams.
+- [Templates for adding pages to the wiki to simplify the process.](templates/)
+- [A How to Contribute page that outlines everything you need to know about contributing to the wiki.](howtocontribute)
+
+## GitHub Integration
+
+### This site is hosted via GitHub Pages with a custom domain! Pretty cool, right? It gets better...
+
+Github also provides an entire framework for the wiki to become a successful, community-driven project! From Issues to Actions and so much more, GitHub makes an excellent home for the website. Therefore it is *vitally important* that the GitHub Terms of Service are followed perfectly, no less, as being removed from GitHub would lead to unnecessary time-waste and resource loss, as well as downtime (which is never good). 
+
+## What are you waiting for?
+
+### Start browsing our contents via the navigation interface!
+
+### Missing something? Perhaps you can help!
