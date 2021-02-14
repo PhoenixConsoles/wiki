@@ -1,9 +1,10 @@
-Code of conduct
+The Phoenix Consoles Code of Conduct applies to this open information project and must be adhered to by all staff, community members, and content of this open information project. Visit https://www.phoenixconsoles.org/pages/codeofconduct to read the Code of Conduct.
 
-How to contribute
+To learn about contributing to this project, [feel free to visit our How to Contribute page.](https://wiki.phoenixconsoles.org/howtocontribute)
 
-License
+![Creative Commons License](https://i.creativecommons.org/l/by-nc-nd/4.0/80x15.png)This work is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.](http://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 Website
 
 Email
+
