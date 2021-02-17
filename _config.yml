@@ -50,7 +50,7 @@ privacy: "https://www.phoenixconsoles.org/codeofconduct"
 # If commented, will use material hat theme
 # logo: "assets/img/logo/SRCC-square-red.png"
 logo_pixels: 34
-color: "#30638e"
+color: "#ff0000"
 # color: "#8c1515" # primary color for header, buttons
 
 # Build settings
