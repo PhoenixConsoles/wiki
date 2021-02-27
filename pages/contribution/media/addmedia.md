@@ -20,4 +20,5 @@ All embedded image content is to be stored in the `_media` folder and embedded i
 
 #### Referencing content not controlled by Phoenix Consoles
 
-Media content that is not controlled by Phoenix Consoles can be referenced and linked appropriately but not embedded. 
+Media content that is not controlled by Phoenix Consoles can be referenced and linked but not embedded. 
+
