@@ -2,6 +2,7 @@
 title: Content Review Standards
 description: Our standards and review system for information submitted to us
 permalink: /review
+not_editable: true
 ---
 
 # Content Review Standards

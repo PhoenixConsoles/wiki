@@ -2,6 +2,7 @@
 layout: page
 title: Documentation
 permalink: /docs/
+not_editable: true
 ---
 
 # Documentation

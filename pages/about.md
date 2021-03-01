@@ -1,6 +1,7 @@
 ---
 title: About
 permalink: /about/
+not_editable: true
 ---
 
 # About

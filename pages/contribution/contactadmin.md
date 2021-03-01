@@ -2,6 +2,7 @@
 title: Contact an administrator
 description: Contact information for our administration team
 permalink: /contactadmin
+not_editable: true
 ---
 
 # Contact an administrator

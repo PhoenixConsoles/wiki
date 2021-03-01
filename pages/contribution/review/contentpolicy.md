@@ -2,6 +2,7 @@
 title: Submitted Content Policy
 description: Our policies on content submitted to us by the community.
 permalink: /contentpolicy
+not_editable: true
 ---
 
 # Submitted Content Policy

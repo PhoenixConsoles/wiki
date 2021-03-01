@@ -2,6 +2,7 @@
 layout: page
 title: The Phoenix Consoles Wiki
 permalink: /
+not_editable: true
 ---
 
 # The Phoenix Consoles Wiki

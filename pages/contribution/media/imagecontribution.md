@@ -2,6 +2,7 @@
 title: Contributing images to the Phoenix Consoles Wiki
 description: Images help us provide visual content for readers to assist in understanding of concepts, diagrams, etc. Read to learn how to take your contributions to the next level.
 permalink: /imagecontribution
+not_editable: true
 ---
 
 # Contributing images to the Phoenix Consoles Wiki

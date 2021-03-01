@@ -2,6 +2,7 @@
 title: Adding Media to the Phoenix Consoles Wiki
 description: Media helps us provide the most information we can to readers through audio, video, and pictures embedded within our pages. Read to learn how to take your contributions to the next level.
 permalink: /contributemedia
+not_editable: true
 ---
 
 # How to: Add media to the Phoenix Consoles Wiki

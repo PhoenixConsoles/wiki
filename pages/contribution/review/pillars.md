@@ -2,6 +2,7 @@
 title: Pillars of Open Information
 description: The pillars of open information are essential to executing our mission as an open information project.
 permalink: /pillars
+not_editable: true
 ---
 
 # Pillars of Open Information

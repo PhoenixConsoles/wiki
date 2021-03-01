@@ -2,6 +2,7 @@
 title: Contributing videos to the Phoenix Consoles Wiki
 description: Video content helps us provide visual and audio content for readers to assist in understanding of concepts, diagrams, etc. Read to learn how to take your contributions to the next level.
 permalink: /youtubecontribution
+not_editable: true
 ---
 
 # Contributing videos to the Phoenix Consoles YouTube channel
